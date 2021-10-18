@@ -3,9 +3,8 @@ const hre = require("hardhat");
 const ethers = hre.ethers;
 
 async function main() {
-    const Dungeons = await ethers.getContractFactory("Dungeons");
-    const dungeon = await Dungeons.deploy();
-    await dungeon.deployed();
+  const Token = await ethers.getContractFactory("Token");
+  const token = await Token.deploy();
   
     console.log(`Seed: ${await dungeon.getSeed()}`)
 }

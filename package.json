@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "query": "node query.js",
     "build": "npx hardhat compile; node build.js",
     "watch": "watch 'npm run build' ./contracts",
     "compile": "npx hardhat compile",
