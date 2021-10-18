@@ -4,7 +4,12 @@ Simple solidity contract start project using hardhat
 ## Installation
 1. Install dependencies: `npm install`
 
-## Usage
+## Query External Contracts
+We grab the contract's UBI (interface) from the etherscan contract page. Then we connect to the contract and call a function. (See: `query.js`)
+
+Usage: `npm run query` 
+
+## Create your own contract
 Query contract's `getSeed()` function once (and console.log the output) - `npm run build`.
 
 Watch for changes to the contract and re-compile/deploy if we make changes - `npm run dev` (Note: changes to build.js will not trigger a re-compile/deploy)
