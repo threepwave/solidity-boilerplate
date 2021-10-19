@@ -5,9 +5,9 @@ Simple solidity contract start project using hardhat
 1. Install dependencies: `npm install`
 
 ## Usage
-Query contract's `getSeed()` function once (and console.log the output) - `npm run build`.
+`npm run build` - Query contract's `getSeed()` function once (and console.log the output).
 
-Watch for changes to the contract and re-compile/deploy if we make changes - `npm run dev` (Note: changes to build.js will not trigger a re-compile/deploy)
+`npm run watch` - Watch for changes to the contract and re-compile/deploy if we make changes (Note: changes to build.js will not trigger a re-compile/deploy).
 
 
 ## How does it work?
