@@ -1,4 +1,4 @@
-/* Build script - Runs a set of hardhat commands against your local vm (TOOD: figure out how to query actual blockchai) */
+/* Build script - Runs a set of hardhat commands against your local vm */
 const hre = require("hardhat");
 const ethers = hre.ethers;
 
